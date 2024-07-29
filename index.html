@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Student Registration System</title>
+    
+</head>
+<body class="container">
+    <h2>Student Registration System</h2>
+    <p>As a student using this registration system, you can easily enter your details like your name, student ID, email, and contact number into a neatly designed form. The form is user-friendly with clear instructions and validation checks to ensure you enter information correctly. Once registered, you'll see your details displayed alongside others in a table format. You can edit your information if anything changes, or delete your record if needed. Don't worry about losing your data either – it's stored locally, so even if you refresh the page, your information will remain intact. Plus, the system dynamically adjusts with a scrollbar as more students register, keeping everything organized and easy to navigate. It's a straightforward way to manage your registration details hassle-free!</p>
+    <br><br><br>
+    <div class="boxes">
+        
+        <div class="box1">
+            <form>
+                <div class="inputgroup">
+                    <label for="name"><i class="fa-solid fa-user"></i> Student Name :</label>
+                    <br><br>
+                    <input type="text" id="studentname" required>
+                    <br><br>
+                </div>
+                <div class="inputgroup">
+                    <label for="studentid"> Student ID :</label>
+                    <br><br>
+                    <input type="text" id="studentid" required>
+                    <br><br>
+                </div>
+                <div class="inputgroup">
+                    <label for="studentclass">Class :</label>
+                    <br><br>
+                    <input type="text" id="studentclass" required>
+                    <br><br>
+                </div>
+                <div class="inputgroup">
+                    <label for="studentcontact">Contact no :</label>
+                    <br><br>
+                    <input type="text" id="studentcontact" required>
+                    <br><br>
+                </div>
+            </form>
+            <button class="button1">Add Details</button>
+        </div>
+        
+        <div id="studentlist">Student List
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

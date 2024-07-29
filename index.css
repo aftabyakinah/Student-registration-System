@@ -1,0 +1,96 @@
+.container{
+    background-image: url('image\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-style: italic;
+    
+    height: 100vh;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+   border: 2px solid cadetblue;
+    border-radius: 10px;
+    padding: 20px;
+    font-style: normal;
+    transition: all 0.3s ease;
+}
+.box1:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 0px 5px lightcoral, 0 0 25px lightcoral, 0 0 50px lightpink, 0 0 100px lightpink, 0 0 200px lightpink;
+}
+    .button1{
+    width: 80px;
+    height: 30px;
+    background-color: lightcoral;
+    border: 1px;
+    border-radius: 2px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+.button1:hover{
+font-weight: 200;
+transform: scale(1.04);
+box-shadow: 0px 0px 5px lightpink, 0 0 25px lightpink, 0 0 50px lightcoral, 0 0 100px lightcoral, 0 0 200px lightcoral;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    transform: scale(1.04);
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#studentlist{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 20px;
+    font-style: normal;
+    transition: all 0.3s ease;
+}
+#studentlist:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 0px 5px lightcoral, 0 0 25px lightcoral, 0 0 50px lightpink, 0 0 100px lightpink, 0 0 200px lightpink;
+}
+.button2{
+    width: 50px;
+    height: 20px;
+    background-color: lightcoral;
+    border: 1px;
+    border-radius: 2px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    margin: 5px;
+    
+}
+.button2:hover{
+font-weight: 200;
+transform: scale(1.04);
+box-shadow: 0px 0px 5px lightpink, 0 0 25px lightpink, 0 0 50px lightcoral, 0 0 100px lightcoral, 0 0 200px lightcoral;
+}
+.inputfields{
+    transition: all 0.3s ease;
+
+}
+.inputfields[type="text"]:focus {
+    outline: none;
+    transform: scale(1.04);
+}
